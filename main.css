@@ -2,6 +2,47 @@ body {margin: 0;
 font-family:sans-serif;
 }
 
+#fried {
+   float:left;
+   margin-left:50px;
+}
+	        
+h1 {
+   margin-left:500px;
+   border-bottom:10px solid;
+   padding:10px;
+}
+			
+h2 {
+   margin-left:500px;
+}
+
+h3 {
+   margin-left:500px;
+}
+form {
+   margin-left:500px;
+}			
+.list {
+   margin-left:500px;
+}
+.info {
+   margin-left:500px;	
+} 
+
+#yes {
+  display: block;
+  color: #000; /* Black */
+  padding: 8px 16px;
+  text-decoration: none;
+  margin-left: 25px;
+  margin-top:1.25%;
+  font-size:25px;
+  border:0px;
+}
+#yes:hover:not(.active){
+  background-color:transparent;}
+
 /* Navigation Bar */
 ul.sidenav {
   list-style-type: none;
@@ -12,6 +53,7 @@ ul.sidenav {
   position: fixed;
   height: 100%;
   overflow: auto;
+  
 }
 
 ul.sidenav li a {
@@ -19,13 +61,21 @@ ul.sidenav li a {
   color: #000; /* Black */
   padding: 8px 16px;
   text-decoration: none;
-  margin: 25px;
+  margin-left: 25px;
+  margin-top:12px;
+  font-size:25px;
+  border:3px black solid;
 }
  
 ul.sidenav li a.active { 
   background-color: transparent; /* Mr. North */
   color: black;
   font-size: 50px;
+  margin-top:0px;
+  margin-bottom:0px;
+  margin-left:10px;
+  margin-right: 75px;
+  border:0px;
 }
 
 ul.sidenav li a:hover:not(.active) {
@@ -60,9 +110,3 @@ div.content {
     float: none;
   }
 /* Navigation Bar End */
-
-
-
-
-
-
