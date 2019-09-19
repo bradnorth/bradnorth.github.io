@@ -10,10 +10,12 @@ font-family:sans-serif;
 #gaesser {
 	float:right; 
 	margin-right: 50px;
+	margin-top:50px;
 }
 #chilis {
 	float:left; 
 	margin-left: 50px;
+	margin-top:50px;
 }
 
 
