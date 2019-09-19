@@ -13,6 +13,11 @@ font-family:sans-serif;
 	
 }
 
+.teacherlist {
+	text-align: center;
+	list-style:normal;
+}
+
 #abouthim {
    margin-left:500px;
    border-bottom:10px solid;
