@@ -9,12 +9,12 @@ font-family:sans-serif;
 
 .teacherheader {
 	text-decoration: underline;
-	text-align: center;
+	text-align: left;
 	
 }
 
 .teacherlist {
-	text-align: center;
+	text-align: left;
 	list-style:normal;
 }
 
