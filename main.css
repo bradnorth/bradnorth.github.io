@@ -1,7 +1,10 @@
 body {margin: 0;
 font-family:sans-serif;
 }
-
+	
+.teachers {
+	padding:75px;
+}
 #fried {
    float:left;
    margin-left:50px;
@@ -17,32 +20,25 @@ font-family:sans-serif;
 	margin-left:50px;
 	margin-top:75px;
 }
-#baker1 {
-	float:right; 
-	margin-right:50px;
-	margin-top:300px;
-}
-#baker2 {
-	float:left; 
-	margin-left:50px;
-	margin-top:300px;
-}
+
 
 .teacherheader {
 	text-decoration: underline;
-	text-align: left;
+	text-align: center;
 	
 }
 
 .teacherlist {
-	text-align: left;
+	text-align: auto;
 	list-style:normal;
+	padding-right:6px;
 }
 
-#abouthim {
+#aboutmrnorth {
    margin-left:500px;
    border-bottom:10px solid;
    padding:10px;
+   text-align:left;
 }
 h1 {
 text-align:center;
