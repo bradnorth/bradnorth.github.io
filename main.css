@@ -8,14 +8,14 @@ font-family:sans-serif;
 }
 
 #gaesser {
-	float:right; 
+	float:left; 
 	margin-right: 50px;
-	margin-top:50px;
+	margin-top:200px;
 }
 #chilis {
 	float:left; 
 	margin-left: 50px;
-	margin-top:50px;
+	margin-top:200px;
 }
 
 
