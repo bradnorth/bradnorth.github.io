@@ -1,10 +1,123 @@
 body {margin: 0;
-font-family:sans-serif;
+font-family: "Quicksand", sans-serif;
+background-color:#D99C7A;
 }
 
-#video {
-	
+
+
+#auzzieg {
+overflow:auto;
+position:absolute;
+width:500px;
+height:500px;
+left:550px;
+top:180px;
 }
+
+#auzzietitle {
+ font-size:45px;
+}
+
+#auzzielist {
+ font-size:30px;
+}
+#bakerc {
+overflow:auto;
+position:absolute;
+width:500px;
+height:500px;
+left:550px;
+top:635px;
+}
+
+#bakertitle {
+ font-size:45px;
+}
+
+#bakerlist {
+ font-size:30px;
+}
+
+#jamesbond {
+overflow:auto;
+position:absolute;
+width:500px;
+height:500px;
+left:550px;
+top:1100px;
+}
+
+#bondtitle {
+ font-size:45px;
+}
+
+#bondlist {
+ font-size:30px;
+}
+
+#pastasauce {
+overflow:auto;
+position:absolute;
+width:500px;
+height:500px;
+left:550px;
+top:1550px;
+}
+
+#pastatitle {
+ font-size:45px;
+}
+
+#pastalist {
+ font-size:30px;
+}
+
+#transparent {
+ color:transparent;
+}
+
+a {
+ color:#AA291E;
+}
+h1 {
+ font-family: "Pacifico", cursive;
+ font-weight:normal;
+}
+
+#mrnorthtitle {
+ font-family: "Pacifico", cursive;
+ font-weight:normal;
+ font-size:20px;
+}
+
+#uv {
+ margin-left:34%;
+}
+
+#videosh {
+ margin-left:35%;
+}
+
+#contactform {
+ margin-left:75px;
+}
+
+iframe {
+ position:absolute;
+ left:25%;
+}
+
+#shrekpicleft {
+ position:fixed;
+ left:5%;
+}
+
+#flip {
+ transform: scaleX(-1);
+ position:fixed;
+ right:5%;
+}
+
 .mrnorthpics {
 	border:40px gray ridge;
 	text-align:center;
@@ -15,8 +128,10 @@ font-family:sans-serif;
 	padding:75px;
 }
 #fried {
-   float:left;
-   margin-left:50px;
+  position: fixed;
+  top: 150px;
+  left: 50px;
+  width: 350px;
 }
 
 #gaesser {
@@ -90,7 +205,7 @@ ul.sidenav {
   margin: 0;
   padding: 0;
   width: 25%;
-  background-color: #ffaaaa; /* pinkish */
+  background-color: #DB3F35; /* NavBarBackground */
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -111,7 +226,7 @@ ul.sidenav li a {
 ul.sidenav li a.active { 
   background-color: transparent; /* Mr. North */
   color: black;
-  font-size: 50px;
+  font-size: 40px;
   margin-top:0px;
   margin-bottom:0px;
   margin-left:10px;
@@ -120,8 +235,8 @@ ul.sidenav li a.active {
 }
 
 ul.sidenav li a:hover:not(.active) {
-  background-color: #555; /* DarkGrey Hover*/
-  color: white;
+  background-color: #D99C7A; /* LightRed Hover*/
+  color: #AA291E;
 }
 
 div.content {
