@@ -285,12 +285,14 @@ ul.sidenav li a.active {
   margin-left:10px;
   margin-right: 75px;
   border:0px;
+  text-shadow: 0px 0px 0px transparent;
 }
 
 ul.sidenav li a:hover:not(.active) {
   background-color: #D99C7A; /* LightRed Hover*/
   color: #AA291E;
   box-shadow: 0px 0px 7px black;
+  text-shadow: 0px 0px 0px transparent;
 }
 
 div.content {
