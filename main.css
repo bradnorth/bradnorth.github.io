@@ -3,6 +3,11 @@ font-family: "Quicksand", sans-serif;
 background-color:#D99C7A;
 }
 
+#htmlcommentboxdiv {
+ margin-left:50px;
+ margin-right:50px;
+}
+
 #shrekh1 {
  font-size:50px;
 }
