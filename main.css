@@ -8,6 +8,10 @@ background-color:#D99C7A;
  margin-right:50px;
 }
 
+a:hover {
+text-shadow:0px 0px 2px #DB3F35;	
+}
+
 #shrekh1 {
  font-size:50px;
  text-shadow:2px 2px #DB3F35;
