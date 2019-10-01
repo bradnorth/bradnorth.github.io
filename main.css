@@ -294,6 +294,13 @@ ul.sidenav li a:hover:not(.active) {
   text-shadow: 0px 0px 0px transparent;
 }
 
+ul.sidenav li a:active:not(.active) {
+  background-color: #D99C7A; /* LightRed Hover*/
+  color: #AA291E;
+  box-shadow: 0px 0px 7px black;
+  text-shadow: 0px 0px 0px transparent;
+}
+
 div.content {
   margin-left: 25%;
   padding: 1px 16px;
