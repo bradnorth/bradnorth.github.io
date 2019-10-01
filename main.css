@@ -294,7 +294,7 @@ ul.sidenav li a:hover:not(.active) {
   text-shadow: 0px 0px 0px transparent;
 }
 
-ul.sidenav li a:active:not(.active) {
+#navbar {
   background-color: #D99C7A; /* LightRed Hover*/
   color: #AA291E;
   box-shadow: 0px 0px 7px black;
