@@ -9,7 +9,8 @@ background-color:#D99C7A;
 }
 
 a:hover {
-text-shadow:0px 0px 5px #000000;	
+text-shadow:0px 0px 5px #000000;
+  transition-duration: 0.2s;	
 }
 
 #shrekh1 {
@@ -165,9 +166,22 @@ iframe {
  left:5%;
 }
 
+#shrekpicleft:hover {
+ box-shadow: 0px 0px 7px black;
+ text-shadow: 0px 0px 0px transparent;
+ transition-duration: 0.3s;
+}
+
 #flip {
  position:fixed;
  right:5%;
+
+}
+
+#flip:hover {
+ box-shadow: 0px 0px 7px black;
+ text-shadow: 0px 0px 0px transparent;
+ transition-duration: 0.3s;
 }
 
 .mrnorthpics {
@@ -292,14 +306,17 @@ ul.sidenav li a:hover:not(.active) {
   color: #AA291E;
   box-shadow: 0px 0px 7px black;
   text-shadow: 0px 0px 0px transparent;
+  transition-duration: 0.3s;
 }
 
-.navbar {
+ul.sidenav li a.navbar {
   background-color: #D99C7A; /* LightRed Hover*/
   color: #AA291E;
   box-shadow: 0px 0px 7px black;
   text-shadow: 0px 0px 0px transparent;
+  transition-duration: 0.3s;
 }
+
 
 div.content {
   margin-left: 25%;
